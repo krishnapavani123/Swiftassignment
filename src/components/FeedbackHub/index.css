@@ -1,0 +1,16 @@
+.dashboard-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

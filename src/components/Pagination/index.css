@@ -1,0 +1,23 @@
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.page-button {
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.4rem 0.75rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.page-button.active {
+  background-color: #2563eb;
+  color: white;
+}
