@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Swift Dashboard Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective  
+Build a **React-based dashboard** with routing, pagination, sorting, and search functionalities using dummy API data. Focus on front-end logic, design fidelity, and user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tech Stack  
+- React.js  
+- JavaScript (no hooks like useState)  
+- CSS  
+- React Router DOM  
+- HTML5
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completion Instructions  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Functionality  
 
-### `npm test`
+#### Must Have  
+- Profile screen using first user from Dummy API  
+- Comments dashboard with:
+  - Custom pagination (10, 50, 100/page)  
+  - Client-side sorting (Post ID, Name, Email)  
+  - Search by Name, Email, Comment (partial match)  
+  - Routing between Profile and Dashboard  
+  - Search icon in input field  
+  - Sort persistence on refresh  
+  - Responsive layout  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Nice to Have  
+- Header component reused on all pages  
+- Styled search input with icon (like design)  
+- LocalStorage persistence for filters  
+- Light theme-friendly button and input designs
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Guidelines to develop a project  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✅ Must Have  
+- Do not use built-in pagination/sort libraries  
+- Use plain JavaScript logic  
+- Routing between pages using React Router  
+- Layout responsive and visually close to provided screenshots  
+- Profile page is read-only  
+- Sorting toggles between ascending → descending → none  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✅ Nice to Have  
+- No unnecessary packages  
+- Clean component structure (`components/`, `pages/`)  
+- Keep logic modular and testable  
+- Consistent font and color system
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Submission Instructions  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✅ Must Have  
+- Exclude `node_modules/`  
+- Zip the project folder  
+- Upload to Google Drive  
+- Share the Drive link  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ✅ Nice to Have  
+- Clean README.md  
+- Provide project structure and launch instructions  
+- Cross-browser checked (Chrome, Edge, Firefox)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Resources  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🎨 Design files  
+Screenshots provided in assignment reference images.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📡 APIs  
+- Users API: `https://jsonplaceholder.typicode.com/users`  
+- Comments API: `https://jsonplaceholder.typicode.com/comments`
 
-### Code Splitting
+### 📦 Third-party packages  
+- `react-router-dom` (v6)  
+- (No additional packages used intentionally for clean logic)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
